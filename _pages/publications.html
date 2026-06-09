@@ -5,32 +5,80 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+.pub-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+  transition: 0.2s ease;
+  background: #fff;
+}
 
+.pub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
 
+.pub-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
 
+.pub-meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.pub-excerpt {
+  font-size: 14px;
+  color: #333;
+}
+
+.pub-tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f2f2f2;
+  margin-left: 8px;
+}
+</style>
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+{% for post in pubs %}
+
+<div class="pub-card">
+
+  <div class="pub-title">
+    {{ post.title }}
+    
+    {% if post.presentation == true %}
+      <span class="pub-tag">Oral</span>
+    {% endif %}
+    
+    {% if post.journal %}
+      <span class="pub-tag">Journal</span>
+    {% endif %}
+  </div>
+
+  <div class="pub-meta">
+    {{ post.venue }} · {{ post.date | date: "%Y-%m-%d" }}
+  </div>
+
+  <div class="pub-excerpt">
+    {{ post.excerpt | strip_html | truncate: 220 }}
+  </div>
+
+  {% if post.url %}
+    <a href="{{ post.url }}">出版物を表示</a>
+  {% endif %}
+
+</div>
+
+{% endfor %}

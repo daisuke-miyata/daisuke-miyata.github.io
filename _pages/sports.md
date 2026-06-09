@@ -12,16 +12,12 @@ I approach endurance sports as a system of long-term adaptation, similar to rese
 
 ## 🔥 Highlights
 
-<div style="font-size: 0.95em; line-height: 1.8;">
-
 🏁 **Half-Ironman finisher** — Suwako Eight Peaks (2025)  
 🏔 **100 km Ultramarathon finisher** — Tobishima (2024)  
 🏃 **Multiple full marathons (sub-5h range)**  
 🚴 **Cycling endurance up to 180+ km**  
 🏊 **Open-water swimming up to 3 km**  
 ⚡ **Spartan Race finisher**
-
-</div>
 
 ---
 
@@ -39,8 +35,6 @@ I approach endurance sports as a system of long-term adaptation, similar to rese
 
 ## 🏊🚴🏃 Triathlon Breakdown
 
-<div style="border-left:4px solid #333; padding-left:14px; margin-top:10px;">
-
 ### Suwako Eight Peaks Middle Triathlon (2025)
 
 **Swim** — 1.9 km → 0:47:26  
@@ -49,18 +43,13 @@ I approach endurance sports as a system of long-term adaptation, similar to rese
 
 **Total** — 🕒 6:18:34  
 
-📄 Certificate:
+📄 Certificate links:
 - Spartan: https://jp.spartan.com/ja/race/profile/6129071  
-- Halong Bay: https://sportstats.one/event/2058/leaderboard/145485?focus=11718&type=pid  
-
-</div>
+- Sportstats: https://sportstats.one/event/2058/leaderboard/145485?focus=11718&type=pid  
 
 ---
 
 ## 🧭 Race Timeline (Full Career)
-
-<details>
-<summary><b>Click to expand full race history (2022–2026)</b></summary>
 
 ### 2026 — Peak Obstacle / Speed
 - Spartan Race Saitama Chichibu Sprint 5K — 1:35:59 (632/642)
@@ -99,5 +88,3 @@ I approach endurance sports as a system of long-term adaptation, similar to rese
 
 ### 2022 — Entry phase
 - Kujukuri 99T Triathlon — 3:15:41  
-
-</details>

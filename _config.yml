@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Pharmaceutical Sciences. Robotics / Lab Automation / Optimization / AI for Science"
   location         : "Japan"
-  employer         : "Red Brick University"
+  employer         : "Kureha Corporation"
   uri              : # URL
   email            : "none@example.org" 
 
@@ -38,11 +38,11 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=QXFSr5kAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6785-2342"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Daisuke-Miyata"
   scopus           : # URL
   zotero           : # URL
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/daisuke-miyata-421657270/"
+  linkedin         : "https://www.linkedin.com/in/daisuke-miyata-421657270"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

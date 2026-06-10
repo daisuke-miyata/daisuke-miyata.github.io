@@ -25,7 +25,7 @@ jobs:
       run: |
         pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
         pip install getorg --upgrade
-        pip install "frontmatter<1.0"
+        pip install "python-frontmatter"
 
     - name: Run Jupyter Notebook
       run: |

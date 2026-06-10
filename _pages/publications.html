@@ -5,8 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-Count = {{ site.publications.size }}
+{% include base_path %}
 
-{% for post in site.publications %}
-{{ post.title }}<br>
+{% for post in site.publications reversed %}
+  <h2><a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a></h2>
+  <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+  {% if post.citation %}
+    <p>{{ post.citation }}</p>
+  {% endif %}
+  <hr>
 {% endfor %}

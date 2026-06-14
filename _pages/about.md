@@ -34,8 +34,6 @@ My current interest is expanding from analysis automation to laboratory automati
 
 Outside work, I enjoy endurance sports including ultramarathons, triathlons, cycling, and open-water swimming.
 
-<hr>
-
 <div style="text-align:center; font-size:1.8em;">
 
   <a href="mailto:daisuke.miyata.s8@alumni.tohoku.ac.jp" title="Email">

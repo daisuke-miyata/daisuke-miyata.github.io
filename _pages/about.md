@@ -36,16 +36,40 @@ Outside work, I enjoy endurance sports including ultramarathons, triathlons, cyc
 
 <hr>
 
-<p align="center">
-  <a href="mailto:daisuke.miyata.s8@alumni.tohoku.ac.jp">✉️ Email</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://github.com/daisuke-miyata">GitHub</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/daisuke-miyata-421657270">LinkedIn</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://scholar.google.com/citations?user=QXFSr5kAAAAJ&hl=en">Google Scholar</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://orcid.org/0000-0002-6785-2342">ORCID</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://www.researchgate.net/profile/Daisuke-Miyata">ResearchGate</a>
-</p>
+<div style="text-align:center; font-size:1.8em;">
+
+  <a href="mailto:daisuke.miyata.s8@alumni.tohoku.ac.jp" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://github.com/daisuke-miyata" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://www.linkedin.com/in/daisuke-miyata-421657270" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://scholar.google.com/citations?user=QXFSr5kAAAAJ&hl=en" title="Google Scholar">
+    <i class="fas fa-graduation-cap"></i>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://orcid.org/0000-0002-6785-2342" title="ORCID">
+    <i class="ai ai-orcid"></i>
+  </a>
+
+  &nbsp;&nbsp;
+
+  <a href="https://www.researchgate.net/profile/Daisuke-Miyata" title="ResearchGate">
+    <i class="ai ai-researchgate"></i>
+  </a>
+
+</div>
